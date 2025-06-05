@@ -3,12 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Resume</title>
+  <title>Zachary Willis | Interactive Resume</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>Interactive Resume Coming Soon!</p>
+  <header>
+    <h1>Zachary Willis</h1>
+    <p>IT Student | Tech Enthusiast | Future Cybersecurity Analyst</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m an IT student passionate about cybersecurity, tech, and hands-on learning.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Hibbett Sports - Sales Associate</h3>
+      <p>2023 – 2024</p>
+      <ul>
+        <li>Customer service and support</li>
+        <li>Team collaboration and problem-solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Hardware troubleshooting</li>
+      <li>Wi-Fi/networking basics</li>
+      <li>Customer support</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Zachary Willis</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
